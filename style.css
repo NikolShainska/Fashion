@@ -1,0 +1,532 @@
+
+/* HEADER BEGIN*/
+
+.header {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-container {
+    margin: 0px 100px;
+}
+
+.h-line {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h-logo {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    
+}
+
+.nav-item {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px; 
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: #EBD96B;
+}
+
+.logo-text {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.btn {
+    background-color: #000;
+    color: #FEFEFE;
+    text-decoration: none;
+    padding: 13px 22px;
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 7px;
+    transition: background-color 0.3s linear;
+    transition:color 0.35s linear;
+}
+.btn:hover {
+    background-color: #EBD96B;
+    color: #000;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 65px;
+}
+
+.wrapper {
+    margin: 56px 100px ;
+    max-width: 1720px;
+    
+    left: 100px;
+    top: 164px;
+
+    background: #F4F6F5;
+    border-radius: 59px;
+    padding-left: 120px;
+    padding-top: 77px;
+
+    display: flex;
+}
+
+
+.i-text {
+    
+    font-weight: 900;
+    font-size: 96px;
+}
+
+.caption {
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.i-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 34px;
+    
+}
+
+#white {
+    width: 464.74px;
+    height: 112.14px;
+
+    background: #FFFFFF;
+    transform: rotate(-2deg);
+    display: flex;
+    align-items: center;
+}
+
+#yellow {
+    width: 495.79px;
+    height: 117.55px;
+
+    background: #EBD96B;
+    transform: rotate(-2deg);
+    display: flex;
+    align-items: center;
+
+}
+
+.button {
+
+    background-color: #000000;border-radius: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 30px;
+    
+    padding: 17px 40px;
+    transition: background-color 0.3s linear;
+    transition: color 0.35s linear;
+}
+
+.button:hover {
+    background-color: #EBD96B;
+    color: #000;
+}
+
+/* HEADER END*/
+
+/* BRANDS BEGIN*/
+
+.brands {
+    height: 186px;
+    background: #EBD96B;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    position: relative;
+    
+}
+
+.brands-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    margin: 50px 170px;
+    width: 1520px;
+    padding-left: 60px;
+}
+
+#hm {
+    width: 118.26px;
+    height: 69.51px;
+}
+
+#obey{
+    width: 150px;
+        height: 52.67px;
+}
+
+#shopify {
+    width: 176px;
+     height: 116px;
+}
+
+#lacoste {
+    
+    height: 65px;
+}
+
+#levis {
+    width: 127px;
+        height: 70.68px;
+}
+
+#amazon {
+    width: 166px;
+    height: 63px;
+}
+
+/* BRANDS END */
+
+/* ARRIVALS BEGIN */
+
+.new-arrivals {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #e9e3bc; */
+    margin: 69px 100px 0px;
+    height: 967px;
+}
+
+.header1 {
+    margin-bottom: 50px;
+}
+
+.arrival-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+
+}
+
+.h-text1 {
+    font-weight: 500;
+    font-size: 32px;
+    color: #191919;
+}
+
+.h-text2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #7F7F7F;
+}
+
+.arr-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.arrow1 {
+    margin-left: 100px;
+}
+
+.arrow2 {
+    margin-left: 200px;
+}
+
+.arrow3 {
+    margin-left: 220px;
+}
+
+/* ARRIVALS END */
+
+/* BANNER BEGIN */
+
+.banner {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin-top: 190px;
+    margin-bottom: 190px;
+}
+
+
+.back {
+    margin-left: calc(50% - 50vw);
+}
+
+.banner-content {
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+
+    width: 1000px;
+    height: 968px;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+
+}
+
+.b-white {
+    margin-top: 120px;
+    font-weight: 900;
+    font-size: 111.608px;
+    width: 541.43px;
+    height: 130.37px;
+    background: #FFFFFF;
+    transform: matrix(1, -0.03, 0.03, 1, 0, 0);
+
+}
+
+.sale-now {
+    font-weight: 900;
+    font-size: 111.608px;
+
+}
+
+.offer {
+    font-weight: 500;
+    font-size: 36.0402px;
+    color: #231300;
+    margin-top: 30px;
+}
+
+.date {
+    font-weight: 700;
+    font-size: 36.0402px;
+    margin-top: 40px;
+}
+
+.terms {
+    font-weight: 400;
+    font-size: 36.0402px;
+    margin-bottom: 50px;
+}
+
+.button-banner {
+    background-color: #000000;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 27px;
+
+    padding: 17px 40px;
+    transition: background-color 0.3s linear;
+    transition: color 0.35s linear;
+}
+
+.button-banner:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+/* BANNER END */
+
+/* YOUNG-FAV BEGIN */
+
+.young-fav {
+    font-family: 'Poppins', sans-serif;
+    margin: 69px 100px 0px;
+    height: 967px;
+}
+
+.fav-header1 {
+    margin-bottom: 50px;
+}
+
+.fav-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 47px;
+
+}
+
+.f-text1 {
+    font-weight: 500;
+    font-size: 32px;
+    color: #000000;
+}
+
+.f-text2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #7F7F7F;
+}
+
+.fav-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.f-arrow1 {
+    margin-left: 420px;
+}
+
+.f-arrow2 {
+    margin-left: 580px;
+}
+
+/* YOUNG-FAV END */
+
+/* VOUCHERS BEGIN */
+
+.voucher {
+
+    margin: 0px 200px ;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#phone {
+    margin-left: 305px;
+}
+
+.download {
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.app {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 65px;
+}
+
+#appstore {
+    margin-right: 19px;
+}
+
+/* VOUCHERS END */
+
+/* COMMUNITY BEGIN */
+
+.community {
+    margin-top: 220px ;
+    font-family: 'Poppins', sans-serif;
+    background: #E5C643;
+    width: 1920px;
+    height: 623px;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join1 {
+    margin-top: 141px;
+    font-weight: 900;
+    font-size: 55px;
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+}
+
+.join2 {
+    margin-top: -25px;
+    font-weight: 900;
+    font-size: 55px;
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+
+}
+
+.type {
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFCF8;
+}
+
+.email {
+    margin-top: 50px;
+}
+/* COMMUNITY END */
+
+/* FOOTER BEGIN */
+
+.footer {
+    font-family: 'Poppins', sans-serif;
+    background: #000000;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #EAEAEA;
+    width: 1920px;
+    height: 545px;
+}
+
+.right {
+    margin-left: 100px;
+
+}
+ .fashion {
+    font-weight: 900;
+    font-size: 40px;
+ }
+
+ .slogan {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #8E8E8E;
+ }
+
+ .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+ }
+
+.links {
+    margin-left: 255px ;
+    display: flex;
+    flex-direction: row;
+    gap: 188px;
+    
+}
+
+.headl {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 24px;
+    color: #8E8E8E;
+    text-decoration: none;
+
+}
+
+.link-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* FOOTER END */
